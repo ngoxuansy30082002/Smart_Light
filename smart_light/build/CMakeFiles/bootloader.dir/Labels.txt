@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/CMakeFiles/bootloader
+D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/CMakeFiles/bootloader.rule
+D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/CMakeFiles/bootloader-complete.rule
+D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
