@@ -504,7 +504,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/esp-idf/espressif__esp_schedule/cmake_install.cmake")
+  include("D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/esp-idf/esp_schedule/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -530,6 +530,46 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/esp-idf/esp_rainmaker/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/esp-idf/esp_eth/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/esp-idf/protocol_examples_common/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/esp-idf/espressif__esp_diagnostics/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/esp-idf/espcoredump/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/esp-idf/espressif__esp_diag_data_store/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/esp-idf/espressif__esp_insights/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/esp-idf/app_insights/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/esp-idf/ws2812_led/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

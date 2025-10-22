@@ -9,5 +9,6 @@ set(COMPONENT_EMBED_TXTFILES
 
 idf_component_register(SRCS "${srcs}"
                        INCLUDE_DIRS "${include_dirs}" "."
-                       REQUIRES app_storage light_driver button esp_wifi app_network esp_rainmaker esp_https_server esp_local_ctrl mdns bt
+                       REQUIRES app_storage light_driver button esp_wifi app_network esp_rainmaker esp_https_server 
+                       esp_local_ctrl mdns bt protocol_examples_common mqtt esp_schedule app_insights json_parser ws2812_led
                        EMBED_TXTFILES "${COMPONENT_EMBED_TXTFILES}")

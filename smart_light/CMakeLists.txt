@@ -5,7 +5,8 @@ cmake_minimum_required(VERSION 3.16)
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 # "Trim" the build. Include the minimal set of components, main, and anything it depends on.
 
-set(EXTRA_COMPONENT_DIRS ${CMAKE_CURRENT_LIST_DIR}/../components)
+set(EXTRA_COMPONENT_DIRS    ${CMAKE_CURRENT_LIST_DIR}/../components
+                            $ENV{IDF_PATH}/examples/common_components/protocol_examples_common)
 
 idf_build_set_property(MINIMAL_BUILD ON)
 project(smart_light)

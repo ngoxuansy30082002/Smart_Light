@@ -7,3 +7,4 @@ source "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/main/Kconfig.
 source "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/app_network/Kconfig.projbuild"
 source "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/app_storage/Kconfig.projbuild"
 source "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker/Kconfig.projbuild"
+source "C:/Users/LENOVO/esp/v5.5.1/esp-idf/examples/common_components/protocol_examples_common/Kconfig.projbuild"

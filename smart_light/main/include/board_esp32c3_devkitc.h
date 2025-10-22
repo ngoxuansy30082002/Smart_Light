@@ -21,7 +21,7 @@
 /**
  * @brief Light driver Macro
  */
-#define LIGHT_GPIO_RED          6
+#define LIGHT_GPIO_RED          3
 #define LIGHT_GPIO_GREEN        4
 #define LIGHT_GPIO_BLUE         5
 #define LIGHT_GPIO_COLD         7

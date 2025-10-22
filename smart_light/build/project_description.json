@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "smart_light",
-    "project_version":    "10b34ed1-dirty",
+    "project_version":    "b4391dd1-dirty",
     "project_path":       "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light",
     "idf_path":           "C:/Users/LENOVO/esp/v5.5.1/esp-idf",
     "build_dir":          "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build",
@@ -21,13 +21,28 @@
     "monitor_toolprefix": "riscv32-esp-elf-",
     "c_compiler":         "C:/Users/LENOVO/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc.exe",
     "config_environment" : {
-        "COMPONENT_KCONFIGS" : "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/bt/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/console/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/driver/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/efuse/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp-tls/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_adc/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_coex/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_common/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_ana_cmpr/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_bitscrambler/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_dac/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_gpio/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_gptimer/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_i2c/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_i2s/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_ledc/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_mcpwm/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_parlio/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_pcnt/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_rmt/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_sdm/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_spi/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_tsens/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_twai/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_uart/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_usb_serial_jtag/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_event/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_gdbstub/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_http_client/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_http_server/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_https_ota/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_https_server/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_hw_support/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_mm/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_netif/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_partition/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_phy/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_pm/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_ringbuf/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_rom/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_security/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_system/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_timer/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_wifi/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/freertos/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/hal/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/heap/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/ieee802154/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/log/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/lwip/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/mbedtls/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/mqtt/esp-mqtt/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/newlib/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/nvs_flash/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/openthread/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/protocomm/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/pthread/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/soc/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/spi_flash/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/tcp_transport/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/vfs/Kconfig;D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/button/Kconfig;D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp-serial-flasher/Kconfig;D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_rcp_update/Kconfig;D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_schedule/Kconfig;D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_secure_cert_mgr/Kconfig;D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__jsmn/Kconfig;D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__mdns/Kconfig;D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__network_provisioning/Kconfig;D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__rmaker_common/Kconfig",
-        "COMPONENT_KCONFIGS_PROJBUILD" : "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/bootloader/Kconfig.projbuild;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_app_format/Kconfig.projbuild;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_rom/Kconfig.projbuild;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esptool_py/Kconfig.projbuild;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/partition_table/Kconfig.projbuild;D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/main/Kconfig.projbuild;D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/app_network/Kconfig.projbuild;D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/app_storage/Kconfig.projbuild;D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker/Kconfig.projbuild"
+        "COMPONENT_KCONFIGS" : "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/bt/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/console/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/driver/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/efuse/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp-tls/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_adc/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_coex/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_common/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_ana_cmpr/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_bitscrambler/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_dac/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_gpio/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_gptimer/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_i2c/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_i2s/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_ledc/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_mcpwm/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_parlio/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_pcnt/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_rmt/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_sdm/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_spi/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_tsens/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_twai/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_uart/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_usb_serial_jtag/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_eth/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_event/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_gdbstub/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_http_client/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_http_server/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_https_ota/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_https_server/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_hw_support/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_mm/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_netif/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_partition/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_phy/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_pm/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_ringbuf/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_rom/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_security/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_system/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_timer/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_wifi/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/espcoredump/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/freertos/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/hal/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/heap/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/ieee802154/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/log/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/lwip/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/mbedtls/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/mqtt/esp-mqtt/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/newlib/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/nvs_flash/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/openthread/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/protocomm/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/pthread/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/soc/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/spi_flash/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/tcp_transport/Kconfig;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/vfs/Kconfig;D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/app_insights/Kconfig;D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/button/Kconfig;D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_schedule/Kconfig;D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/ws2812_led/Kconfig;D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp-serial-flasher/Kconfig;D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_diag_data_store/Kconfig;D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_diagnostics/Kconfig;D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_insights/Kconfig;D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_rcp_update/Kconfig;D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_secure_cert_mgr/Kconfig;D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__jsmn/Kconfig;D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__mdns/Kconfig;D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__network_provisioning/Kconfig;D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__rmaker_common/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/bootloader/Kconfig.projbuild;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_app_format/Kconfig.projbuild;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_rom/Kconfig.projbuild;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esptool_py/Kconfig.projbuild;C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/partition_table/Kconfig.projbuild;D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/main/Kconfig.projbuild;D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/app_network/Kconfig.projbuild;D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/app_storage/Kconfig.projbuild;D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker/Kconfig.projbuild;C:/Users/LENOVO/esp/v5.5.1/esp-idf/examples/common_components/protocol_examples_common/Kconfig.projbuild"
     },
     "common_component_reqs": [ "cxx", "newlib", "freertos", "esp_hw_support", "heap", "log", "soc", "hal", "esp_rom", "esp_common", "esp_system", "riscv" ],
-    "build_components" : [ "app_network", "app_storage", "app_update", "bootloader", "bootloader_support", "bt", "button", "console", "cxx", "driver", "efuse", "esp-tls", "esp_adc", "esp_app_format", "esp_bootloader_format", "esp_coex", "esp_common", "esp_driver_ana_cmpr", "esp_driver_bitscrambler", "esp_driver_dac", "esp_driver_gpio", "esp_driver_gptimer", "esp_driver_i2c", "esp_driver_i2s", "esp_driver_ledc", "esp_driver_mcpwm", "esp_driver_parlio", "esp_driver_pcnt", "esp_driver_rmt", "esp_driver_sdio", "esp_driver_sdm", "esp_driver_sdmmc", "esp_driver_sdspi", "esp_driver_spi", "esp_driver_tsens", "esp_driver_twai", "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_event", "esp_gdbstub", "esp_http_client", "esp_http_server", "esp_https_ota", "esp_https_server", "esp_hw_support", "esp_local_ctrl", "esp_mm", "esp_netif", "esp_netif_stack", "esp_partition", "esp_phy", "esp_pm", "esp_rainmaker", "esp_ringbuf", "esp_rom", "esp_security", "esp_system", "esp_timer", "esp_vfs_console", "esp_wifi", "espressif__cbor", "espressif__esp-serial-flasher", "espressif__esp_daylight", "espressif__esp_rcp_update", "espressif__esp_schedule", "espressif__esp_secure_cert_mgr", "espressif__jsmn", "espressif__json_generator", "espressif__json_parser", "espressif__led_strip", "espressif__mdns", "espressif__network_provisioning", "espressif__qrcode", "espressif__rmaker_common", "esptool_py", "freertos", "hal", "heap", "http_parser", "ieee802154", "json", "light_driver", "log", "lwip", "main", "mbedtls", "mqtt", "newlib", "nvs_flash", "openthread", "partition_table", "protobuf-c", "protocomm", "pthread", "riscv", "sdmmc", "soc", "spi_flash", "tcp_transport", "vfs", "wpa_supplicant", "" ],
-    "build_component_paths" : [ "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/app_network", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/app_storage", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/app_update", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/bootloader", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/bootloader_support", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/bt", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/button", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/console", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/cxx", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/driver", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/efuse", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp-tls", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_adc", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_app_format", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_bootloader_format", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_coex", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_common", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_ana_cmpr", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_bitscrambler", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_dac", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_gpio", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_gptimer", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_i2c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_i2s", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_ledc", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_mcpwm", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_parlio", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_pcnt", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_rmt", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_sdio", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_sdm", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_sdmmc", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_sdspi", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_spi", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_tsens", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_twai", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_uart", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_usb_serial_jtag", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_event", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_gdbstub", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_http_client", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_http_server", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_https_ota", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_https_server", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_hw_support", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_local_ctrl", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_mm", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_netif", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_netif_stack", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_partition", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_phy", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_pm", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_ringbuf", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_rom", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_security", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_system", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_timer", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_vfs_console", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_wifi", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__cbor", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp-serial-flasher", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_daylight", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_rcp_update", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_schedule", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_secure_cert_mgr", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__jsmn", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__json_generator", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__json_parser", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__led_strip", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__mdns", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__network_provisioning", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__qrcode", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__rmaker_common", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esptool_py", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/freertos", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/hal", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/heap", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/http_parser", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/ieee802154", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/json", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/light_driver", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/log", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/lwip", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/main", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/mbedtls", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/mqtt", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/newlib", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/nvs_flash", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/openthread", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/partition_table", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/protobuf-c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/protocomm", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/pthread", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/riscv", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/sdmmc", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/soc", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/spi_flash", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/tcp_transport", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/vfs", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant", "" ],
+    "build_components" : [ "app_insights", "app_network", "app_storage", "app_update", "bootloader", "bootloader_support", "bt", "button", "console", "cxx", "driver", "efuse", "esp-tls", "esp_adc", "esp_app_format", "esp_bootloader_format", "esp_coex", "esp_common", "esp_driver_ana_cmpr", "esp_driver_bitscrambler", "esp_driver_dac", "esp_driver_gpio", "esp_driver_gptimer", "esp_driver_i2c", "esp_driver_i2s", "esp_driver_ledc", "esp_driver_mcpwm", "esp_driver_parlio", "esp_driver_pcnt", "esp_driver_rmt", "esp_driver_sdio", "esp_driver_sdm", "esp_driver_sdmmc", "esp_driver_sdspi", "esp_driver_spi", "esp_driver_tsens", "esp_driver_twai", "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_eth", "esp_event", "esp_gdbstub", "esp_http_client", "esp_http_server", "esp_https_ota", "esp_https_server", "esp_hw_support", "esp_local_ctrl", "esp_mm", "esp_netif", "esp_netif_stack", "esp_partition", "esp_phy", "esp_pm", "esp_rainmaker", "esp_ringbuf", "esp_rom", "esp_schedule", "esp_security", "esp_system", "esp_timer", "esp_vfs_console", "esp_wifi", "espcoredump", "espressif__cbor", "espressif__esp-serial-flasher", "espressif__esp_daylight", "espressif__esp_diag_data_store", "espressif__esp_diagnostics", "espressif__esp_insights", "espressif__esp_rcp_update", "espressif__esp_secure_cert_mgr", "espressif__jsmn", "espressif__json_generator", "espressif__json_parser", "espressif__led_strip", "espressif__mdns", "espressif__network_provisioning", "espressif__qrcode", "espressif__rmaker_common", "esptool_py", "freertos", "hal", "heap", "http_parser", "ieee802154", "json", "light_driver", "log", "lwip", "main", "mbedtls", "mqtt", "newlib", "nvs_flash", "openthread", "partition_table", "protobuf-c", "protocol_examples_common", "protocomm", "pthread", "riscv", "sdmmc", "soc", "spi_flash", "tcp_transport", "vfs", "wpa_supplicant", "ws2812_led", "" ],
+    "build_component_paths" : [ "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/app_insights", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/app_network", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/app_storage", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/app_update", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/bootloader", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/bootloader_support", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/bt", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/button", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/console", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/cxx", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/driver", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/efuse", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp-tls", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_adc", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_app_format", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_bootloader_format", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_coex", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_common", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_ana_cmpr", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_bitscrambler", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_dac", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_gpio", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_gptimer", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_i2c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_i2s", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_ledc", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_mcpwm", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_parlio", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_pcnt", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_rmt", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_sdio", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_sdm", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_sdmmc", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_sdspi", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_spi", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_tsens", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_twai", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_uart", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_usb_serial_jtag", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_eth", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_event", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_gdbstub", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_http_client", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_http_server", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_https_ota", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_https_server", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_hw_support", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_local_ctrl", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_mm", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_netif", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_netif_stack", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_partition", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_phy", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_pm", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_ringbuf", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_rom", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_schedule", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_security", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_system", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_timer", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_vfs_console", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_wifi", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/espcoredump", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__cbor", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp-serial-flasher", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_daylight", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_diag_data_store", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_diagnostics", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_insights", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_rcp_update", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_secure_cert_mgr", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__jsmn", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__json_generator", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__json_parser", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__led_strip", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__mdns", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__network_provisioning", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__qrcode", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__rmaker_common", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esptool_py", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/freertos", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/hal", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/heap", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/http_parser", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/ieee802154", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/json", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/light_driver", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/log", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/lwip", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/main", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/mbedtls", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/mqtt", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/newlib", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/nvs_flash", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/openthread", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/partition_table", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/protobuf-c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/examples/common_components/protocol_examples_common", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/protocomm", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/pthread", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/riscv", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/sdmmc", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/soc", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/spi_flash", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/tcp_transport", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/vfs", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/ws2812_led", "" ],
     "build_component_info" : {
+        "app_insights": {
+            "alias": "idf::app_insights",
+            "target": "___idf_app_insights",
+            "prefix": "idf",
+            "dir": "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/app_insights",
+            "type": "LIBRARY",
+            "lib": "__idf_app_insights",
+            "reqs": [],
+            "priv_reqs": [ "espressif__esp_insights", "espressif__esp_diagnostics", "esp_rainmaker" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [ "espressif__esp_insights" ],
+            "file": "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/esp-idf/app_insights/libapp_insights.a",
+            "sources": [ "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/app_insights/app_insights.c" ],
+            "include_dirs": [ "." ]
+        },
         "app_network": {
             "alias": "idf::app_network",
             "target": "___idf_app_network",
@@ -598,6 +613,21 @@
             "sources": [ "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag_connection_monitor.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag_vfs.c" ],
             "include_dirs": [ "include" ]
         },
+        "esp_eth": {
+            "alias": "idf::esp_eth",
+            "target": "___idf_esp_eth",
+            "prefix": "idf",
+            "dir": "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_eth",
+            "type": "LIBRARY",
+            "lib": "__idf_esp_eth",
+            "reqs": [ "esp_event" ],
+            "priv_reqs": [ "log", "esp_timer", "esp_driver_spi", "esp_driver_gpio" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/esp-idf/esp_eth/libesp_eth.a",
+            "sources": [ "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_eth/src/esp_eth.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_eth/src/phy/esp_eth_phy_802_3.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_eth/src/esp_eth_netif_glue.c" ],
+            "include_dirs": [ "include" ]
+        },
         "esp_event": {
             "alias": "idf::esp_event",
             "target": "___idf_esp_event",
@@ -816,9 +846,9 @@
             "type": "LIBRARY",
             "lib": "__idf_esp_rainmaker",
             "reqs": [ "espressif__rmaker_common" ],
-            "priv_reqs": [ "protobuf-c", "espressif__json_parser", "espressif__json_generator", "nvs_flash", "esp_http_client", "app_update", "esp-tls", "mbedtls", "esp_https_ota", "console", "esp_local_ctrl", "esp_https_server", "espressif__mdns", "espressif__esp_schedule", "espressif__esp_daylight", "efuse", "driver", "espressif__rmaker_common", "esp_app_format", "openthread", "espressif__network_provisioning", "espressif__cbor", "espressif__esp_rcp_update", "espressif__esp_secure_cert_mgr" ],
+            "priv_reqs": [ "protobuf-c", "espressif__json_parser", "espressif__json_generator", "nvs_flash", "esp_http_client", "app_update", "esp-tls", "mbedtls", "esp_https_ota", "console", "esp_local_ctrl", "esp_https_server", "espressif__mdns", "esp_schedule", "espressif__esp_daylight", "efuse", "driver", "espressif__rmaker_common", "esp_app_format", "openthread", "espressif__network_provisioning", "espressif__cbor", "espressif__esp_rcp_update", "espressif__esp_secure_cert_mgr" ],
             "managed_reqs": [],
-            "managed_priv_reqs": [ "espressif__cbor", "espressif__esp_rcp_update", "espressif__esp_schedule", "espressif__esp_secure_cert_mgr", "espressif__json_generator", "espressif__json_parser", "espressif__mdns", "espressif__network_provisioning", "espressif__rmaker_common" ],
+            "managed_priv_reqs": [ "espressif__cbor", "espressif__esp_rcp_update", "esp_schedule", "espressif__esp_secure_cert_mgr", "espressif__json_generator", "espressif__json_parser", "espressif__mdns", "espressif__network_provisioning", "espressif__rmaker_common" ],
             "file": "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/esp-idf/esp_rainmaker/libesp_rainmaker.a",
             "sources": [ "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker/src/core/esp_rmaker_core.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker/src/core/esp_rmaker_node.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker/src/core/esp_rmaker_device.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker/src/core/esp_rmaker_param.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker/src/core/esp_rmaker_node_config.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker/src/core/esp_rmaker_client_data.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker/src/core/esp_rmaker_time_service.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker/src/core/esp_rmaker_system_service.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker/src/core/esp_rmaker_user_mapping.pb-c.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker/src/core/esp_rmaker_user_mapping.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker/src/core/esp_rmaker_node_auth.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker/src/core/esp_rmaker_schedule.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker/src/core/esp_rmaker_scenes.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker/src/core/esp_rmaker_secure_boot_digest.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker/src/core/esp_rmaker_cmd_resp_manager.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker/src/core/esp_rmaker_param_cmd_resp.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker/src/core/esp_rmaker_claim.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker/src/core/esp_rmaker_local_ctrl.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker/src/mqtt/esp_rmaker_mqtt.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker/src/mqtt/esp_rmaker_mqtt_budget.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker/src/ota/esp_rmaker_ota.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker/src/ota/esp_rmaker_ota_using_params.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker/src/ota/esp_rmaker_ota_using_topics.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker/src/ota/esp_rmaker_https_ota.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker/src/standard_types/esp_rmaker_standard_params.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker/src/standard_types/esp_rmaker_standard_devices.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker/src/standard_types/esp_rmaker_standard_services.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker/src/console/esp_rmaker_console.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker/src/console/esp_rmaker_commands.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/rmaker_mqtt_server.crt.S", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/rmaker_claim_service_server.crt.S", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/rmaker_ota_server.crt.S" ],
             "include_dirs": [ "include" ]
@@ -852,6 +882,21 @@
             "file": "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/esp-idf/esp_rom/libesp_rom.a",
             "sources": [ "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_rom/patches/esp_rom_sys.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_rom/patches/esp_rom_print.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_rom/patches/esp_rom_crc.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_rom/patches/esp_rom_uart.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_rom/patches/esp_rom_spiflash.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_rom/patches/esp_rom_efuse.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_rom/patches/esp_rom_gpio.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_rom/patches/esp_rom_systimer.c" ],
             "include_dirs": [ "include", "esp32c3/include", "esp32c3/include/esp32c3", "esp32c3" ]
+        },
+        "esp_schedule": {
+            "alias": "idf::esp_schedule",
+            "target": "___idf_esp_schedule",
+            "prefix": "idf",
+            "dir": "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_schedule",
+            "type": "LIBRARY",
+            "lib": "__idf_esp_schedule",
+            "reqs": [ "nvs_flash", "espressif__esp_daylight" ],
+            "priv_reqs": [ "espressif__rmaker_common", "espressif__esp_daylight" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [ "espressif__esp_daylight", "espressif__rmaker_common" ],
+            "file": "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/esp-idf/esp_schedule/libesp_schedule.a",
+            "sources": [ "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_schedule/src/esp_schedule.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_schedule/src/esp_schedule_nvs.c" ],
+            "include_dirs": [ "include" ]
         },
         "esp_security": {
             "alias": "idf::esp_security",
@@ -928,6 +973,21 @@
             "sources": [ "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_wifi/src/lib_printf.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_wifi/src/mesh_event.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_wifi/src/smartconfig.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_wifi/src/wifi_init.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_wifi/src/wifi_default.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_wifi/src/wifi_netif.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_wifi/src/wifi_default_ap.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_wifi/esp32c3/esp_adapter.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_wifi/regulatory/esp_wifi_regulatory.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/esp_wifi/src/smartconfig_ack.c" ],
             "include_dirs": [ "include", "include/local", "wifi_apps/include", "wifi_apps/nan_app/include" ]
         },
+        "espcoredump": {
+            "alias": "idf::espcoredump",
+            "target": "___idf_espcoredump",
+            "prefix": "idf",
+            "dir": "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/espcoredump",
+            "type": "LIBRARY",
+            "lib": "__idf_espcoredump",
+            "reqs": [],
+            "priv_reqs": [ "esp_partition", "spi_flash", "bootloader_support", "mbedtls", "esp_rom", "soc", "esp_system", "esp_driver_gpio" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/esp-idf/espcoredump/libespcoredump.a",
+            "sources": [ "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/espcoredump/src/core_dump_init.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/espcoredump/src/core_dump_common.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/espcoredump/src/core_dump_flash.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/espcoredump/src/core_dump_uart.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/espcoredump/src/core_dump_elf.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/espcoredump/src/core_dump_binary.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/espcoredump/src/core_dump_sha.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/espcoredump/src/core_dump_crc.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/espcoredump/src/port/riscv/core_dump_port.c" ],
+            "include_dirs": [ "include", "include/port/riscv" ]
+        },
         "espressif__cbor": {
             "alias": "idf::espressif__cbor",
             "target": "___idf_espressif__cbor",
@@ -973,6 +1033,51 @@
             "sources": [ "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_daylight/src/esp_daylight.c" ],
             "include_dirs": [ "include" ]
         },
+        "espressif__esp_diag_data_store": {
+            "alias": "idf::espressif__esp_diag_data_store",
+            "target": "___idf_espressif__esp_diag_data_store",
+            "prefix": "idf",
+            "dir": "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_diag_data_store",
+            "type": "LIBRARY",
+            "lib": "__idf_espressif__esp_diag_data_store",
+            "reqs": [ "esp_event", "esp_hw_support" ],
+            "priv_reqs": [ "nvs_flash", "app_update" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/esp-idf/espressif__esp_diag_data_store/libespressif__esp_diag_data_store.a",
+            "sources": [ "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_diag_data_store/src/esp_diag_data_store.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_diag_data_store/src/rtc_store/rtc_store.c" ],
+            "include_dirs": [ "src/rtc_store", "include" ]
+        },
+        "espressif__esp_diagnostics": {
+            "alias": "idf::espressif__esp_diagnostics",
+            "target": "___idf_espressif__esp_diagnostics",
+            "prefix": "idf",
+            "dir": "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_diagnostics",
+            "type": "LIBRARY",
+            "lib": "__idf_espressif__esp_diagnostics",
+            "reqs": [],
+            "priv_reqs": [ "freertos", "app_update", "espressif__rmaker_common", "esp_hw_support", "esp_wifi", "esp_event" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [ "espressif__rmaker_common" ],
+            "file": "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/esp-idf/espressif__esp_diagnostics/libespressif__esp_diagnostics.a",
+            "sources": [ "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_diagnostics/src/esp_diagnostics_log_hook.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_diagnostics/src/esp_diagnostics_utils.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_diagnostics/src/esp_diagnostics_metrics.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_diagnostics/src/esp_diagnostics_heap_metrics.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_diagnostics/src/esp_diagnostics_wifi_metrics.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_diagnostics/src/esp_diagnostics_variables.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_diagnostics/src/esp_diagnostics_network_variables.c" ],
+            "include_dirs": [ "include" ]
+        },
+        "espressif__esp_insights": {
+            "alias": "idf::espressif__esp_insights",
+            "target": "___idf_espressif__esp_insights",
+            "prefix": "idf",
+            "dir": "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_insights",
+            "type": "LIBRARY",
+            "lib": "__idf_espressif__esp_insights",
+            "reqs": [ "espressif__esp_diagnostics" ],
+            "priv_reqs": [ "espressif__cbor", "espressif__rmaker_common", "esptool_py", "espcoredump", "espressif__esp_diag_data_store", "nvs_flash", "esp_timer", "esp_hw_support", "esp_wifi", "espressif__esp_diagnostics" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [ "espressif__cbor", "espressif__esp_diag_data_store", "espressif__esp_diagnostics", "espressif__rmaker_common" ],
+            "file": "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/esp-idf/espressif__esp_insights/libespressif__esp_insights.a",
+            "sources": [ "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_insights/src/esp_insights.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_insights/src/esp_insights_transport.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_insights/src/esp_insights_client_data.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_insights/src/esp_insights_encoder.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_insights/src/esp_insights_cmd_resp.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_insights/src/esp_insights_cbor_decoder.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_insights/src/esp_insights_cbor_encoder.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/https_server.crt.S", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_insights/src/transport/esp_insights_https.c" ],
+            "include_dirs": [ "include" ]
+        },
         "espressif__esp_rcp_update": {
             "alias": "idf::espressif__esp_rcp_update",
             "target": "___idf_espressif__esp_rcp_update",
@@ -986,21 +1091,6 @@
             "managed_priv_reqs": [ "espressif__esp-serial-flasher" ],
             "file": "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/esp-idf/espressif__esp_rcp_update/libespressif__esp_rcp_update.a",
             "sources": [ "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_rcp_update/src/esp_rcp_ota.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_rcp_update/src/esp_rcp_update.c" ],
-            "include_dirs": [ "include" ]
-        },
-        "espressif__esp_schedule": {
-            "alias": "idf::espressif__esp_schedule",
-            "target": "___idf_espressif__esp_schedule",
-            "prefix": "idf",
-            "dir": "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_schedule",
-            "type": "LIBRARY",
-            "lib": "__idf_espressif__esp_schedule",
-            "reqs": [ "nvs_flash", "espressif__esp_daylight" ],
-            "priv_reqs": [ "espressif__rmaker_common", "espressif__esp_daylight" ],
-            "managed_reqs": [],
-            "managed_priv_reqs": [ "espressif__esp_daylight", "espressif__rmaker_common" ],
-            "file": "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/esp-idf/espressif__esp_schedule/libespressif__esp_schedule.a",
-            "sources": [ "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_schedule/src/esp_schedule.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_schedule/src/esp_schedule_nvs.c" ],
             "include_dirs": [ "include" ]
         },
         "espressif__esp_secure_cert_mgr": {
@@ -1295,7 +1385,7 @@
             "dir": "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/main",
             "type": "LIBRARY",
             "lib": "__idf_main",
-            "reqs": [ "app_storage", "light_driver", "button", "esp_wifi", "app_network", "esp_rainmaker", "esp_https_server", "esp_local_ctrl", "espressif__mdns", "bt" ],
+            "reqs": [ "app_storage", "light_driver", "button", "esp_wifi", "app_network", "esp_rainmaker", "esp_https_server", "esp_local_ctrl", "espressif__mdns", "bt", "protocol_examples_common", "mqtt", "esp_schedule", "app_insights", "espressif__json_parser", "ws2812_led" ],
             "priv_reqs": [ "espressif__led_strip", "espressif__qrcode" ],
             "managed_reqs": [],
             "managed_priv_reqs": [ "espressif__led_strip", "espressif__qrcode" ],
@@ -1407,6 +1497,21 @@
             "file": "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/esp-idf/protobuf-c/libprotobuf-c.a",
             "sources": [ "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.c" ],
             "include_dirs": [ "protobuf-c" ]
+        },
+        "protocol_examples_common": {
+            "alias": "idf::protocol_examples_common",
+            "target": "___idf_protocol_examples_common",
+            "prefix": "idf",
+            "dir": "C:/Users/LENOVO/esp/v5.5.1/esp-idf/examples/common_components/protocol_examples_common",
+            "type": "LIBRARY",
+            "lib": "__idf_protocol_examples_common",
+            "reqs": [],
+            "priv_reqs": [ "esp_netif", "esp_driver_gpio", "esp_driver_uart", "esp_wifi", "vfs", "console", "esp_eth", "openthread" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/esp-idf/protocol_examples_common/libprotocol_examples_common.a",
+            "sources": [ "C:/Users/LENOVO/esp/v5.5.1/esp-idf/examples/common_components/protocol_examples_common/stdin_out.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/examples/common_components/protocol_examples_common/addr_from_stdin.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/examples/common_components/protocol_examples_common/connect.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/examples/common_components/protocol_examples_common/protocol_examples_utils.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/examples/common_components/protocol_examples_common/console_cmd.c" ],
+            "include_dirs": [ "include" ]
         },
         "protocomm": {
             "alias": "idf::protocomm",
@@ -1542,6 +1647,21 @@
             "file": "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/esp-idf/wpa_supplicant/libwpa_supplicant.a",
             "sources": [ "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/port/os_xtensa.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/port/eloop.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/ap/ap_config.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/ap/ieee802_1x.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/ap/wpa_auth.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/ap/wpa_auth_ie.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/ap/pmksa_cache_auth.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/ap/sta_info.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/ap/ieee802_11.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/ap/comeback_token.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/common/sae.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/common/dragonfly.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/common/wpa_common.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/utils/bitfield.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/crypto/aes-siv.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/crypto/sha256-kdf.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/crypto/ccmp.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/crypto/aes-gcm.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/crypto/crypto_ops.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/crypto/dh_group5.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/crypto/dh_groups.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/crypto/ms_funcs.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/crypto/sha1-tlsprf.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/crypto/sha256-tlsprf.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/crypto/sha384-tlsprf.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/crypto/sha256-prf.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/crypto/sha1-prf.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/crypto/sha384-prf.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/crypto/md4-internal.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/crypto/sha1-tprf.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/eap_common/eap_wsc_common.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/common/ieee802_11_common.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/eap_peer/chap.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap_common.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap_mschapv2.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap_common.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls_common.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap_ttls.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/eap_peer/mschapv2.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast_common.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast_pac.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/rsn_supp/pmksa_cache.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa_ie.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/utils/base64.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/utils/common.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/utils/ext_password.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/utils/uuid.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/utils/wpabuf.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/utils/wpa_debug.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/utils/json.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/wps/wps.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/wps/wps_attr_build.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/wps/wps_attr_parse.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/wps/wps_attr_process.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/wps/wps_common.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/wps/wps_dev_attr.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/wps/wps_enrollee.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/common/sae_pk.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_eap_client.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa2_api_port.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa_main.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpas_glue.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_common.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wps.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa3.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_owe.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_hostap.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/tls_mbedtls.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-bignum.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-rsa.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-ec.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/fastpsk.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/crypto/rc4.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/crypto/des-internal.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/fastpbkdf2.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/crypto/aes-wrap.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/crypto/aes-unwrap.c", "C:/Users/LENOVO/esp/v5.5.1/esp-idf/components/wpa_supplicant/src/crypto/aes-ccm.c" ],
             "include_dirs": [ "include", "port/include", "esp_supplicant/include" ]
+        },
+        "ws2812_led": {
+            "alias": "idf::ws2812_led",
+            "target": "___idf_ws2812_led",
+            "prefix": "idf",
+            "dir": "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/ws2812_led",
+            "type": "LIBRARY",
+            "lib": "__idf_ws2812_led",
+            "reqs": [],
+            "priv_reqs": [ "driver" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/build/esp-idf/ws2812_led/libws2812_led.a",
+            "sources": [ "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/ws2812_led/ws2812_led.c", "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/ws2812_led/led_strip_rmt_ws2812.c" ],
+            "include_dirs": [ "." ]
         }
     },
     "all_component_info" : {
@@ -2059,7 +2179,7 @@
             "priv_reqs": [ "log", "esp_timer", "esp_driver_spi", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": []
+            "include_dirs": [ "include" ]
         },
         "esp_event": {
             "alias": "idf::esp_event",
@@ -2371,7 +2491,7 @@
             "priv_reqs": [ "esp_partition", "spi_flash", "bootloader_support", "mbedtls", "esp_rom", "soc", "esp_system", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include" ]
+            "include_dirs": [ "include", "include/port/riscv" ]
         },
         "esptool_py": {
             "alias": "idf::esptool_py",
@@ -2847,11 +2967,23 @@
             "prefix": "idf",
             "dir": "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/main",
             "lib": "__idf_main",
-            "reqs": [ "app_storage", "light_driver", "button", "esp_wifi", "app_network", "esp_rainmaker", "esp_https_server", "esp_local_ctrl", "espressif__mdns", "bt" ],
+            "reqs": [ "app_storage", "light_driver", "button", "esp_wifi", "app_network", "esp_rainmaker", "esp_https_server", "esp_local_ctrl", "espressif__mdns", "bt", "protocol_examples_common", "mqtt", "esp_schedule", "app_insights", "espressif__json_parser", "ws2812_led" ],
             "priv_reqs": [ "espressif__led_strip", "espressif__qrcode" ],
             "managed_reqs": [],
             "managed_priv_reqs": [ "espressif__led_strip", "espressif__qrcode" ],
             "include_dirs": [ "include", "." ]
+        },
+        "app_insights": {
+            "alias": "idf::app_insights",
+            "target": "___idf_app_insights",
+            "prefix": "idf",
+            "dir": "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/app_insights",
+            "lib": "__idf_app_insights",
+            "reqs": [],
+            "priv_reqs": [ "espressif__esp_insights", "espressif__esp_diagnostics", "esp_rainmaker" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [ "espressif__esp_insights" ],
+            "include_dirs": [ "." ]
         },
         "app_network": {
             "alias": "idf::app_network",
@@ -2896,9 +3028,21 @@
             "dir": "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_rainmaker",
             "lib": "__idf_esp_rainmaker",
             "reqs": [ "espressif__rmaker_common" ],
-            "priv_reqs": [ "protobuf-c", "espressif__json_parser", "espressif__json_generator", "nvs_flash", "esp_http_client", "app_update", "esp-tls", "mbedtls", "esp_https_ota", "console", "esp_local_ctrl", "esp_https_server", "espressif__mdns", "espressif__esp_schedule", "espressif__esp_daylight", "efuse", "driver", "espressif__rmaker_common", "esp_app_format", "openthread", "espressif__network_provisioning", "espressif__cbor", "espressif__esp_rcp_update", "espressif__esp_secure_cert_mgr" ],
+            "priv_reqs": [ "protobuf-c", "espressif__json_parser", "espressif__json_generator", "nvs_flash", "esp_http_client", "app_update", "esp-tls", "mbedtls", "esp_https_ota", "console", "esp_local_ctrl", "esp_https_server", "espressif__mdns", "esp_schedule", "espressif__esp_daylight", "efuse", "driver", "espressif__rmaker_common", "esp_app_format", "openthread", "espressif__network_provisioning", "espressif__cbor", "espressif__esp_rcp_update", "espressif__esp_secure_cert_mgr" ],
             "managed_reqs": [],
-            "managed_priv_reqs": [ "espressif__cbor", "espressif__esp_rcp_update", "espressif__esp_schedule", "espressif__esp_secure_cert_mgr", "espressif__json_generator", "espressif__json_parser", "espressif__mdns", "espressif__network_provisioning", "espressif__rmaker_common" ],
+            "managed_priv_reqs": [ "espressif__cbor", "espressif__esp_rcp_update", "esp_schedule", "espressif__esp_secure_cert_mgr", "espressif__json_generator", "espressif__json_parser", "espressif__mdns", "espressif__network_provisioning", "espressif__rmaker_common" ],
+            "include_dirs": [ "include" ]
+        },
+        "esp_schedule": {
+            "alias": "idf::esp_schedule",
+            "target": "___idf_esp_schedule",
+            "prefix": "idf",
+            "dir": "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/esp_schedule",
+            "lib": "__idf_esp_schedule",
+            "reqs": [ "nvs_flash", "espressif__esp_daylight" ],
+            "priv_reqs": [ "espressif__rmaker_common", "espressif__esp_daylight" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [ "espressif__esp_daylight", "espressif__rmaker_common" ],
             "include_dirs": [ "include" ]
         },
         "light_driver": {
@@ -2912,6 +3056,30 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": [ "include" ]
+        },
+        "protocol_examples_common": {
+            "alias": "idf::protocol_examples_common",
+            "target": "___idf_protocol_examples_common",
+            "prefix": "idf",
+            "dir": "C:/Users/LENOVO/esp/v5.5.1/esp-idf/examples/common_components/protocol_examples_common",
+            "lib": "__idf_protocol_examples_common",
+            "reqs": [],
+            "priv_reqs": [ "esp_netif", "esp_driver_gpio", "esp_driver_uart", "esp_wifi", "vfs", "console", "esp_eth", "openthread" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "include_dirs": [ "include" ]
+        },
+        "ws2812_led": {
+            "alias": "idf::ws2812_led",
+            "target": "___idf_ws2812_led",
+            "prefix": "idf",
+            "dir": "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/components/ws2812_led",
+            "lib": "__idf_ws2812_led",
+            "reqs": [],
+            "priv_reqs": [ "driver" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "include_dirs": [ "." ]
         },
         "espressif__cbor": {
             "alias": "idf::espressif__cbor",
@@ -2949,6 +3117,42 @@
             "managed_priv_reqs": [],
             "include_dirs": [ "include" ]
         },
+        "espressif__esp_diag_data_store": {
+            "alias": "idf::espressif__esp_diag_data_store",
+            "target": "___idf_espressif__esp_diag_data_store",
+            "prefix": "idf",
+            "dir": "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_diag_data_store",
+            "lib": "__idf_espressif__esp_diag_data_store",
+            "reqs": [ "esp_event", "esp_hw_support" ],
+            "priv_reqs": [ "nvs_flash", "app_update" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "include_dirs": [ "src/rtc_store", "include" ]
+        },
+        "espressif__esp_diagnostics": {
+            "alias": "idf::espressif__esp_diagnostics",
+            "target": "___idf_espressif__esp_diagnostics",
+            "prefix": "idf",
+            "dir": "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_diagnostics",
+            "lib": "__idf_espressif__esp_diagnostics",
+            "reqs": [],
+            "priv_reqs": [ "freertos", "app_update", "espressif__rmaker_common", "esp_hw_support", "esp_wifi", "esp_event" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [ "espressif__rmaker_common" ],
+            "include_dirs": [ "include" ]
+        },
+        "espressif__esp_insights": {
+            "alias": "idf::espressif__esp_insights",
+            "target": "___idf_espressif__esp_insights",
+            "prefix": "idf",
+            "dir": "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_insights",
+            "lib": "__idf_espressif__esp_insights",
+            "reqs": [ "espressif__esp_diagnostics" ],
+            "priv_reqs": [ "espressif__cbor", "espressif__rmaker_common", "esptool_py", "espcoredump", "espressif__esp_diag_data_store", "nvs_flash", "esp_timer", "esp_hw_support", "esp_wifi", "espressif__esp_diagnostics" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [ "espressif__cbor", "espressif__esp_diag_data_store", "espressif__esp_diagnostics", "espressif__rmaker_common" ],
+            "include_dirs": [ "include" ]
+        },
         "espressif__esp_rcp_update": {
             "alias": "idf::espressif__esp_rcp_update",
             "target": "___idf_espressif__esp_rcp_update",
@@ -2959,18 +3163,6 @@
             "priv_reqs": [ "esp_driver_gpio", "esp_driver_uart", "espressif__esp-serial-flasher" ],
             "managed_reqs": [],
             "managed_priv_reqs": [ "espressif__esp-serial-flasher" ],
-            "include_dirs": [ "include" ]
-        },
-        "espressif__esp_schedule": {
-            "alias": "idf::espressif__esp_schedule",
-            "target": "___idf_espressif__esp_schedule",
-            "prefix": "idf",
-            "dir": "D:/StudyDocs/Nam6Ki1/PBL5_IoT/example/example2/smart_light/managed_components/espressif__esp_schedule",
-            "lib": "__idf_espressif__esp_schedule",
-            "reqs": [ "nvs_flash", "espressif__esp_daylight" ],
-            "priv_reqs": [ "espressif__rmaker_common", "espressif__esp_daylight" ],
-            "managed_reqs": [],
-            "managed_priv_reqs": [ "espressif__esp_daylight", "espressif__rmaker_common" ],
             "include_dirs": [ "include" ]
         },
         "espressif__esp_secure_cert_mgr": {

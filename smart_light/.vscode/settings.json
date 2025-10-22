@@ -15,9 +15,10 @@
     "--query-driver=C:\\Users\\LENOVO\\.espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20241119\\xtensa-esp-elf\\bin\\xtensa-esp32-elf-gcc.exe",
     "--compile-commands-dir=${workspaceFolder}\\build"
   ],
-  "idf.portWin": "COM7",
+  "idf.portWin": "COM5",
   "idf.flashType": "UART",
   "files.associations": {
-    "scheme_ble.h": "c"
+    "scheme_ble.h": "c",
+    "protocol_examples_common.h": "c"
   }
 }

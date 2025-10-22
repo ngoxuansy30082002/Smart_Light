@@ -84,6 +84,9 @@ SECTIONS
     
  . = ALIGN(4); 
  _rtc_force_fast_start = ABSOLUTE(.);
+    _coredump_rtc_fast_start = ABSOLUTE(.);
+    *(.rtc.fast.coredump .rtc.fast.coredump.*)
+    _coredump_rtc_fast_end = ABSOLUTE(.);
     *(.rtc.force_fast .rtc.force_fast.*)
     
  . = ALIGN(4); 
@@ -103,6 +106,9 @@ SECTIONS
   .rtc.data :
   {
     _rtc_data_start = ABSOLUTE(.);
+    _coredump_rtc_start = ABSOLUTE(.);
+    *(.rtc.coredump .rtc.coredump.*)
+    _coredump_rtc_end = ABSOLUTE(.);
     *(.rtc.data .rtc.data.*)
     *(.rtc.rodata .rtc.rodata.*)
     *rtc_wake_stub*.*(.data .rodata .data.* .rodata.* .srodata.*)
@@ -475,6 +481,9 @@ SECTIONS
     *(.jcr)
     *(EXCLUDE_FILE(*libbt.a *libbtdm_app.a) .data EXCLUDE_FILE(*libbt.a *libbtdm_app.a) .data.*)
     *(.dram1 .dram1.*)
+    _coredump_dram_start = ABSOLUTE(.);
+    *(.dram2.coredump .dram2.coredump.*)
+    _coredump_dram_end = ABSOLUTE(.);
     . = ALIGN(4);
     _bt_data_start = ABSOLUTE(.);
     *libbt.a:(.data .data.*)
@@ -876,6 +885,9 @@ SECTIONS
  . = ALIGN(16); 
  _iram_data_start = ABSOLUTE(.);
     *(.iram.data .iram.data.*)
+    _coredump_iram_start = ABSOLUTE(.);
+    *(.iram2.coredump .iram2.coredump.*)
+    _coredump_iram_end = ABSOLUTE(.);
     _iram_data_end = ABSOLUTE(.);
   } > iram0_0_seg
   .iram0.bss (NOLOAD) :
